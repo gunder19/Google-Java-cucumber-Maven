@@ -1,0 +1,24 @@
+Project is designed using java selenium cucumber maven
+POM (Page Object Model) is used to manage the test structure easily.
+Using cucumber reporting to log the results.
+I used Scenario outline to test all of the web drivers and we can search different words by using scenario outline structure.
+I used assertions to verify the elements
+In addition, I added different cucumber sentences to manage the web drivers.
+If driver is not supported in PC, fail message is shown.
+
+
+EXECUTE
+Use Maven tab (right top of the Intellij Idea application)
+Click "Execute Maven Goal" menu
+
+1)You can execute tests writing mvn clean verify
+2) if first is not successfull, write only mvn verify
+
+and press enter
+
+
+NOTE:
+1)Extra test case is added but commented. With that testcase, you can use different browsers and different words.
+2) With using "FAIL:" word, you can find the fail reasons.
+
+
